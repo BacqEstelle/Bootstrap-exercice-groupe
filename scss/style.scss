@@ -1,0 +1,205 @@
+// Element navigation
+.navbar{
+    font-family: 'Dosis', sans-serif;
+    display: block;
+    background: rgb(52,58,64);
+    background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+    border-bottom: 2px solid cyan;
+    text-align: center;
+
+}
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+
+  }
+
+  // Element Lien & Animation hover
+.navbar-nav{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 40px;
+    line-height: 20px;
+    padding: 0px 80px 0px 450px;
+    
+    .nav-item{
+        font-size: 120%;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0px 50px 0px 50px;
+        .nav-link{
+            color: cyan;
+            vertical-align: middle;
+            border-radius: 15px;
+
+                &:hover{
+                    background: rgb(0,255,255);
+                    background: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                    -moz-border-radius: 15%;
+                    -o-border-radius: 15%;
+                    -webkit-border-radius: 15%;
+                    border-radius: 15%;
+                    transition : 1s ease-in-out;
+                    transform : scale(1.3); 
+
+                }
+        
+        }
+    }
+        // Element Logo : Mise en page + animation hover
+        .logo-item{
+            margin-right: 50px;
+            .logo{
+                display: block;
+                background-image: url(../img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 60px;
+                height: 60px;
+                top: 0;
+                padding: 100%;
+                border-bottom: 2px solid cyan;
+                border-left: 2px solid cyan;
+                border-right: 2px solid cyan;
+                border-radius: 60px;
+                    &:hover{
+                        background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                        transition : 1s ease-in-out;
+                        transform : scale(1.2); 
+    
+
+                    }
+            }
+        }
+    
+}
+// Carousel
+    .carousel-inner{
+        display: block;
+        margin-top: 50px;
+        height: 550px;
+
+    }
+
+
+// Element contenu n°1
+    .contenair-1{
+        margin: 0px;
+        width: auto;
+        // Customisation Jumbotron
+        .jumbotron{
+            background-color: white;
+
+            h1{
+                border-bottom: 2px solid lightgray;
+                font-weight: 400;
+                text-align: center;
+                margin-bottom: 5%;
+                text-shadow: lightgrey 10px 8px;
+            }
+            h2{
+                color: gray;
+            }
+
+
+         }   
+
+    }
+// Element de coupure avec angle
+.border-angle {
+    position: relative;
+    padding: 1em;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 0px 0 rgba(146, 141, 141, 0.4);
+  }
+  .border-angle::after{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      margin-left: -0.5em;
+      bottom: -2em;
+      left: 50%;
+      
+      border: 1em solid black;
+      border-color: transparent transparent lightgray lightgray;
+      
+      transform-origin: 0 0;
+      transform: rotate(-45deg);
+      
+      box-shadow: -5px 3px 3px 0 rgba(0, 0, 0, 0.4);
+    }
+// Element checkbox et animation
+.text{
+    display:none;
+    border-left: 4px solid gray;
+    padding-left: 2%;
+    
+
+}
+// Apparition de la partie texte + shadow box + léger décalage
+input[type=checkbox]:checked ~ div.text{
+    display:block;
+    transform : translate(0px,30px); 
+    box-shadow: 10px 5px 5px lightgray;
+}
+// Element contenu n°2
+    .contenair-2{
+        display: block;
+        margin: 2% 0% 2% 0%;
+        .col-md-10{
+            margin: 0px;
+        }
+        .row{
+            padding: 5% 10% 5% 10%;
+            // Customisation des panels
+            .panel{
+
+                box-shadow: 10px 10px 5px 0 rgba(146, 141, 141, 0.4);
+                height: 100%;
+                //animation augmentation de la taille 
+                &:hover{
+                    transition : 1s ease-in-out;
+                    transform : scale(1.3); 
+                }
+            
+                    //En-tête des panel
+                    .panel-heading{
+                        
+                        text-align: center;
+                        background-color: #343a40;
+                        border-bottom: 3px solid cyan;
+                        color: white;
+                        padding: 5%;
+                        &:hover{
+                            color: cyan;
+                            
+                        }
+                    }
+                    //Corp des panels
+                    .panel-body{
+                        font-family: 'Dosis', sans-serif;
+                        text-align: justify;
+                        padding: 5%;
+                            
+                    }    
+            }
+        }
+    }
+
+    
+// Customization du footer
+.footer-custom{
+    border-top: 2px solid cyan;
+    color: lightgray;
+    background: rgb(52,58,64);
+    background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+}
+// Modification de la couleur de l'url
+.copyright{
+    a{
+    color: white;
+    }
+}
+
