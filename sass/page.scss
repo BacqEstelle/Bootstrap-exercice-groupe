@@ -1,0 +1,21 @@
+@import 'carrousel.scss'; 
+$space_between_sections : 50px;
+$color_title_shadow : rgba(218,223,227,0.6);
+
+.titre{
+    margin-top : $space_between_sections; 
+}
+h1{
+    font-family : 'Kaushan Script', serif; 
+    color : $color_title_shadow;
+    font-size : 4em;
+}
+h2{
+    font-family : 'Rubik', sans-serif; 
+    position : relative; 
+    top : -35px; 
+    padding-bottom : $space_between_sections/2; 
+    border-bottom : 2px solid $color_carousel_main; 
+    text-transform : uppercase; 
+}
+
