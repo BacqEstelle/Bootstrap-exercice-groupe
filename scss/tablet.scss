@@ -35,12 +35,11 @@
         
         .nav-item{
             text-align: Left;
-            padding: 5%;
+            padding-left: 5%;
             vertical-align: middle;
 
             .nav-link{
                 color: $nav-link;
-                padding: 5%;
                 vertical-align: middle;
                 transition : 1s ease-in-out;
                 transform : scale(1); 
