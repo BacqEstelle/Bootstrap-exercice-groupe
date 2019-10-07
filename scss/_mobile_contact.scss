@@ -1,0 +1,36 @@
+.container-formulaire{
+
+    margin: 5%;
+
+    h1{
+        padding-top: 20%;
+        padding-bottom: 1%;
+        text-shadow: lightgrey 10px 8px;
+        border-bottom: 2px solid lightgray;
+    }
+
+form{
+    margin-top : 3%;
+    text-align: center;
+}
+    .btn-primary{
+        background-color: rgb(52,58,64);
+        border-color: lightgray;
+        box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+
+        &:active{
+            background: rgb(52,58,64);
+            background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+            box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+    
+            .fas{
+                color : greenyellow;
+            }
+        }
+    }
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+        background-color: rgb(52,58,64);
+        border-color: lightgray;
+        box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+    }
+}
