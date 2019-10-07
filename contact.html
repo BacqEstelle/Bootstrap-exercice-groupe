@@ -1,0 +1,142 @@
+<!DOCTYPE Html>
+<html lang="fr">
+<head>
+  <title> ... </title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="Description" content=" ... ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (min-width: 960px)" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" media="screen and (max-width: 479px)" href="css/mobile.css" type="text/css" />
+  <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 959px)" href="css/tablet.css" type="text/css" />
+
+
+  <link rel="icon" href="img/ico.png" />
+</head>
+<body>
+<header>
+
+  <!---Barre de navigation--->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0 mt-lg-5 mt-0 order-md-1 position-relative">
+            <a class="navbar-nav mr-auto" href="index.html">
+                <div class="logo-item">
+                    <a class="logo" href="index.html"></a>
+                      </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="photo.html">Photo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+<div class="container-formulaire">
+  <h1>Formulaire de contact</h1>
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName4">Nom</label>
+            <input type="text" class="form-control" id="inputName4" placeholder="Nom">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName4">Prénom</label>
+            <input type="text" class="form-control" id="inputLastName-4" placeholder="Prénom">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="example@youmail.com">
+        </div>
+        <div class="form-group">
+            <label for="inputCMS">Objet du message</label>
+            <select id="inputCMS" class="form-control">
+              <option selected>Choisissez ...</option>
+              <option>Réclamation</option>
+              <option>Remboursement</option>
+              <option>Remerciement</option>
+              <option>Autres ...</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <div class="form-group">
+                <label for="comment">Commentaires:</label>
+                <textarea class="form-control" rows="6" id="comment" placeholder="Votre texte ici ..."></textarea>
+              </div>
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Envoyer</button>
+      </form>
+  
+
+</div>
+
+
+ 
+ <!---Pied de page--->
+<div class="footer-custom">
+     <!---1er Partie : Picto--->
+<footer id="sticky-footer" class="py-2">
+  <div class="py-3 container text-center">
+      <a class="fb-ic" href="#">
+          <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+        <a class="tw-ic" href="#">
+          <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+        <a class="gplus-ic" href="#">
+          <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+        <a class="li-ic">
+          <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+        <a class="ins-ic" href="#">
+          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+        <a class="pin-ic" href="#">
+          <i class="fab fa-pinterest fa-lg white-text fa-2x" style="color: lightgray;"> </i>
+        </a>
+
+  </div>
+ <!---2e Partie : Copyright--->
+  <div class="py-1 container text-center">
+    <div class="copyright">
+    <small>© 2019 Copyright: <a href="#"> lacuisine.becode.org</a></small>
+  </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+</body>
+</html>

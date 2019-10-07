@@ -225,6 +225,8 @@ input[type=checkbox]:checked ~ div.text{
 }
 // Modification de la couleur de l'url
 .copyright{
+    bottom:0;
+    right:0;
     a{
     color: white;
     }

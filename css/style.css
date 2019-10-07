@@ -1,4 +1,35 @@
 @media screen and (min-width: 960px) {
+  .container-formulaire {
+    margin: 5%;
+  }
+  .container-formulaire h1 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-shadow: lightgrey 10px 8px;
+    border-bottom: 2px solid lightgray;
+  }
+  .container-formulaire form {
+    margin-top: 3%;
+  }
+  .container-formulaire .btn-primary {
+    background-color: #343a40;
+    border-color: lightgray;
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
+  .container-formulaire .btn-primary:active {
+    background: #343a40;
+    background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
+  .container-formulaire .btn-primary:active .fas {
+    color: greenyellow;
+  }
+  .container-formulaire .btn-primary:not(:disabled):not(.disabled).active, .container-formulaire .btn-primary:not(:disabled):not(.disabled):active, .container-formulaire .show > .btn-primary.dropdown-toggle {
+    background-color: #343a40;
+    border-color: lightgray;
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
+
   .navbar {
     font-family: "Dosis", sans-serif;
     background: #343a40;
@@ -170,6 +201,10 @@
     background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
   }
 
+  .copyright {
+    bottom: 0;
+    right: 0;
+  }
   .copyright a {
     color: white;
   }
