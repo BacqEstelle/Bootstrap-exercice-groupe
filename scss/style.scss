@@ -1,27 +1,34 @@
+@media screen and (min-width: 960px){
+@import "_carte.scss";
+@import "_restaurant.scss";
+@import "_photo.scss";
+@import "_contact.scss";
+
+$nav-background-primary: rgb(52,58,64);
+$nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+$nav-background-hover: rgb(0,255,255);
+$nav-background-hover-linear: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+$nav-link: cyan;
+$border-logo: 2px solid cyan;
+$border-primary: cyan;
+$border-second: lightgray;
+$panel-heading: #343a40;
+$panel-heading-border: 3px solid cyan;
 // Element navigation
 .navbar{
     font-family: 'Dosis', sans-serif;
-    display: block;
-    background: rgb(52,58,64);
-    background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+    background: $nav-background-primary;
+    background: $nav-background-primary-linear;
     border-bottom: 2px solid cyan;
-    text-align: center;
+    height: 80px;
 
 }
-.navbar-brand {
-    padding: 0px;
-    margin: 0px;
 
-  }
 
   // Element Lien & Animation hover
 .navbar-nav{
-    text-align: center;
     padding-top: 0;
     padding-bottom: 0;
-    height: 40px;
-    line-height: 20px;
-    padding: 0px 80px 0px 450px;
     
     .nav-item{
         font-size: 120%;
@@ -29,24 +36,28 @@
         vertical-align: middle;
         padding: 0px 50px 0px 50px;
         .nav-link{
-            color: cyan;
+            color: $nav-link;
             vertical-align: middle;
             border-radius: 15px;
+            transition : 1s ease-in-out;
+            transform : scale(1); 
+
 
                 &:hover{
-                    background: rgb(0,255,255);
-                    background: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                    background: $nav-background-hover;
+                    background: $nav-background-hover-linear;
                     -moz-border-radius: 15%;
                     -o-border-radius: 15%;
                     -webkit-border-radius: 15%;
                     border-radius: 15%;
                     transition : 1s ease-in-out;
-                    transform : scale(1.3); 
+                    transform : scale(1.1); 
 
                 }
         
         }
     }
+}
         // Element Logo : Mise en page + animation hover
         .logo-item{
             margin-right: 50px;
@@ -59,21 +70,23 @@
                 height: 60px;
                 top: 0;
                 padding: 100%;
-                border-bottom: 2px solid cyan;
-                border-left: 2px solid cyan;
-                border-right: 2px solid cyan;
+                border-bottom: $border-logo;
+                border-left: $border-logo;
+                border-right: $border-logo;
                 border-radius: 60px;
+                transition : 1s ease-in-out;
+                transform : scale(1); 
                     &:hover{
                         background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
                         transition : 1s ease-in-out;
-                        transform : scale(1.2); 
+                        transform : scale(1.1); 
     
 
                     }
             }
         }
     
-}
+
 // Carousel
     .carousel-inner{
         display: block;
@@ -164,18 +177,20 @@ input[type=checkbox]:checked ~ div.text{
 
                 box-shadow: 10px 10px 5px 0 rgba(146, 141, 141, 0.4);
                 height: 100%;
+                transition : 1s ease-in-out;
+                transform : scale(1); 
                 //animation augmentation de la taille 
                 &:hover{
                     transition : 1s ease-in-out;
-                    transform : scale(1.3); 
+                    transform : scale(1.1); 
                 }
             
                     //En-tête des panel
                     .panel-heading{
                         
                         text-align: center;
-                        background-color: #343a40;
-                        border-bottom: 3px solid cyan;
+                        background-color: $panel-heading;
+                        border-bottom: $panel-heading-border;
                         color: white;
                         padding: 5%;
                         &:hover{
@@ -205,8 +220,8 @@ input[type=checkbox]:checked ~ div.text{
 .footer-custom{
     border-top: 2px solid cyan;
     color: lightgray;
-    background: rgb(52,58,64);
-    background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+    background: $nav-background-primary;
+    background: $nav-background-primary-linear;
 }
 // Modification de la couleur de l'url
 .copyright{
@@ -215,3 +230,4 @@ input[type=checkbox]:checked ~ div.text{
     }
 }
 
+}
