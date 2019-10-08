@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7b73018617.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/scss/style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+            <a class="navbar-brand" href="#">Carousel</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Carte</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Restaurant</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+    <section class="box">
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="https://media.giphy.com/media/yYc5L3vhTWeBi/source.gif" class="rounded-circle" alt="#" style="height: 140px;width:140px;">
+            <h2>Promo</h2>
+            <p>Vous trouverez ici nos différentes promotions et nos nouveautés ! Une promotion par semaine vous attend ainsi qu'une découverte par mois !</p>
+            <p><a class="btn btn-secondary" href="#promo" role="button">Nos promos <span class="badge badge-pill badge-warning"><i class="far fa-star" aria-hidden="true"></i></span></a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="https://media.giphy.com/media/l0K4lPx8bvdbFMdGM/source.gif" class="rounded-circle" alt="#" style="height: 140px;width:140px;">
+            <h2>Menu</h2>
+            <p>Vous trouverez ici nos différents menus proposés. Des hamburgers à croquer pour tous le goûts et pour tous les âges !</p>
+            <p><a class="btn btn-secondary" href="#menu" role="button">Nos menus <span class="badge badge-pill badge-primary"><i class="fas fa-hamburger" aria-hidden="true"></i></span></a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="https://media.giphy.com/media/9Vk8qP9EmWB8FePccb/source.gif" class="rounded-circle" alt="#" style="height: 140px;width:140px;">
+            <h2>Salade</h2>
+            <p>Vous trouverez ici nos différentes salades proposées. Salade variée, salade composée et encore bien d'autre pour nos amis les vegans !</p>
+            <p><a class="btn btn-secondary" href="#salade" role="button">Nos salades <span class="badge badge-pill badge-success"><i class="fas fa-seedling" aria-hidden="true"></i></span></a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </section>
+        <!-- START THE FEATURETTES -->
+    <section class="container-fluid">
+        <hr id="promo" class="featurette-divider">
+
+        <div class="boxMenu">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Promo <span class="badge badge-pill badge-warning"><i class="far fa-spin fa-star" aria-hidden="true"></i></span></h2>
+            <p class="lead">Vous trouverez ici nos différentes promotions et nos nouveautés ! Une promotion par semaine vous attend ainsi qu'une découverte par mois !</p>
+          </div>
+          <div class="col-md-5">
+            <img src="assets/img/promo.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
+          </div>
+        </div>
+        <hr id="menu" class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Menu <span class="badge badge-success">Vegan</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="assets/img/hamburger.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Salade <span class="badge badge-pill badge-success"><i class="fas fa-spin fa-seedling" aria-hidden="true"></i></span></h2>
+            <p id ="salade" class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+                <img src="assets/img/vegan.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
+          </div>
+        </div>
+    
+        <hr class="featurette-divider">
+        </div>
+        <!-- /END THE FEATURETTES -->
+      </div>
+    </section>
+    <footer class="footer-carte">
+            <div id="sticky-footer">
+    <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+</body>
+</html>
