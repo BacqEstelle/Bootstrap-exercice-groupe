@@ -16,7 +16,20 @@
     $border-second: lightgray;
     $panel-heading: #343a40;
     $panel-heading-border: 3px solid cyan;
+    $color_carousel_main : #e44249;
+    $color_carousel_second : #f1f3f6; 
+    $color_carousel_third : black; 
+    $color_carousel_hover : #64becc; 
+    $width_max_caption : 50%; 
+    $width_caption : 33%; 
     // Element navigation
+    .nav-desktop-active{
+        display: none;
+    }
+    .nav-mobile-active{
+        display: block;
+    }
+
     .navbar{
         font-family: 'Dosis', sans-serif;
         background: $nav-background-primary;
@@ -81,12 +94,63 @@
         
     
     // Carousel
-        .carousel-inner{
-            display: block;
-            margin-top: 10%;
-            height: 20%;
+    .carousel-inner{
+        padding-top: 80px;
+     }
+    .view{
+        display : flex; 
+        justify-content: center; 
+        background-color : $color_carousel_second; 
+    }
+    .carousel-caption{
+        top : 0; 
+        bottom : auto; 
+        left : 0; 
+        right : auto;
+        width : $width_max_caption;
+        max-width : 500px;
+        padding-left : 20px;
+        margin-left : 50px;
+        margin-top : 50px; 
+    }
+    .carousel-caption h3{
+        font-family : 'Rubik', sans-serif;
+        font-weight : thin; 
+        text-align : left; 
+        color : $color_carousel_third; 
+        text-transform: uppercase; 
+        font-size : 2.5em;
+        margin-bottom : 40%;
+    }
+    .carousel-caption p {
+       background-color : $color_carousel_main; 
+       border-radius : 5px; 
+       text-transform : uppercase; 
+       color : white; 
+       padding : 20px;
+       max-width : 200px;
+       font-weight : bold; 
+    }
     
-        }
+     /*Changer les indicateurs y compris au moment de la sélection*/
+     .carousel-indicators{
+         justify-content: flex-end; 
+     }
+     .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border : 2px solid $color_carousel_main; 
+        margin-right : 2rem; 
+    }
+    .carousel-indicators .active, .hover {
+        background-color : $color_carousel_main;
+    }
+    
+    .carousel-control-prev:hover, .carousel-control-next:hover {
+        background-color : rgba($color_carousel_hover, 0.5);
+    }
+    
     
     
     // Element contenu n°1

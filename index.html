@@ -22,6 +22,7 @@
 <header>
 
   <!---Barre de navigation--->
+  <div class="nav-desktop-active">
     <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
         <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
             <ul class="navbar-nav ml-auto">
@@ -54,37 +55,104 @@
             </ul>
         </div>
 </nav>
-
+</div>
+<div class="nav-mobile-active">
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0 mt-lg-5 mt-0 order-md-1 position-relative">
+            <a class="navbar-nav mr-auto" href="index.html">
+                <div class="logo-item">
+                    <a class="logo" href="index.html"></a>
+                      </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="photo.html">Photo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+</nav>
+</div>
 
 
  <!---Début du carousel--->
             
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100" src="img/burger01.jpg" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="img/burger02.jpg" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="img/burger03.jpg" alt="Third slide">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
+ <!-- starting the carousel 3 images for now-->
+ <div id="carouselMain" class="carousel slide carousel-fade" data-ride="carousel">
+     <!-- starting the indicative dots -->
+     <ol class="carousel-indicators"> <!-- bouton de visualisation -> changer la position 2nd temps -->
+         <li data-target="#carouselMain" data-slide-to="0" class="active"></li> <!-- first image active by default -->
+         <li data-target="#carouselMain" data-slide-to="1"></li>
+         <li data-target="#carouselMain" data-slide-to="2"></li>
+     </ol> <!-- end of the indicative dots-->
+
+     <!-- starting the content of the carousel-->
+     <div class="carousel-inner" role="listbox">
+         <!-- first slide -->
+         <div class="carousel-item active"> <!-- first slide is active -->
+             <div class="view"> <!-- image de fond -->
+                 <img class="d-block" src="img/steack1.png" alt="First slide">
+                 <div class="mask rgba-black-light"></div> <!-- alt values = rgba-black-strong, mask rgba-black-slight-->
+             </div>
+             <div class="carousel-caption"> <!-- Légende à Déplacer et customiser -->
+                 <h3 class="h3-responsive">Some text on few lines of course.</h3>
+                 <p>Visit us</p>
+             </div>
+         </div> <!-- end of the first slide -->
+
+         <!-- second slide -->
+         <div class="carousel-item">
+             <div class="view">
+                 <img class="d-block" src="img/langouste.png" alt="Second slide">
+                 <div class="mask rgba-black-slight"></div>
+             </div>
+             <div class="carousel-caption">
+                 <h3 class="h3-responsive">Some text on few lines of course.</h3>
+                 <p>Visit us</p>
+             </div>
+         </div> <!-- end of second slide -->
+
+         <!-- third slide -->
+         <div class="carousel-item">
+             <div class="view">
+                 <img class="d-block" src="img/moules.png" alt="Third slide"> <!-- w-100 class for full-->
+             <div class="mask rgba-black-strong"></div>
+             </div>
+             <div class="carousel-caption">
+                 <h3 class="h3-responsive">Some text on few lines of course.</h3>
+                 <p>Visit us</p>
+             </div>
+         </div><!-- end of the third slide-->
+     </div><!-- end of the carousel content-->
+
+     <!-- starting to add controls (arrows) -->
+     <a class="carousel-control-prev" href="#carouselMain" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span> <!-- for screan readers only even if lack of accessibility -->
+     </a>
+     <a class="carousel-control-next" href="#carouselMain" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+     </a>
+ </div>
+ <!-- end of the carousel(wrapper)-->
      <!---Fin du carousel--->
 </header>
  <!--- Premier contenant--->
