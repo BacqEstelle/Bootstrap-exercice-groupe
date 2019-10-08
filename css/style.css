@@ -31,6 +31,10 @@
     box-shadow: 0 0 0 0.2rem #4e524e;
   }
 
+  .url-index {
+    display: none;
+  }
+
   .navbar {
     font-family: "Dosis", sans-serif;
     background: #343a40;

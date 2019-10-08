@@ -23,6 +23,9 @@
     $width_max_caption : 50%; 
     $width_caption : 33%; 
     // Element navigation
+    .url-index{
+        display: block;
+    }
     .nav-desktop-active{
         display: none;
     }

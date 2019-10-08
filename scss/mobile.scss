@@ -23,6 +23,9 @@
     $width_max_caption : 50%; 
     $width_caption : 33%; 
     // Element navigation
+    .url-index{
+        display: none;
+    }
     .nav-desktop-active{
         display: none;
     }
@@ -93,6 +96,7 @@
         
     
     // Carousel
+    
     .carousel-inner{
        padding-top: 80px;
     }

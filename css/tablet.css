@@ -32,6 +32,10 @@
     box-shadow: 0 0 0 0.2rem #4e524e;
   }
 
+  .url-index {
+    display: block;
+  }
+
   .nav-desktop-active {
     display: none;
   }

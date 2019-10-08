@@ -21,6 +21,9 @@ $color_carousel_hover : #64becc;
 $width_max_caption : 50%; 
 $width_caption : 33%; 
 // Element navigation
+.url-index{
+    display: none;
+}
 .navbar{
     font-family: 'Dosis', sans-serif;
     background: $nav-background-primary;
