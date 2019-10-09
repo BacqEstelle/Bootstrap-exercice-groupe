@@ -1,5 +1,29 @@
 @charset "UTF-8";
 @media screen and (min-width: 960px) {
+  /*on retouche juste la position des indicateurs*/
+  .carousel-1 {
+    margin-top: 15%;
+  }
+
+  .carousel-indicators {
+    justify-content: center;
+  }
+
+  .view > .container-fluid figure {
+    overflow: hidden;
+  }
+  .view > .container-fluid .img_left img, .view > .container-fluid .img_right img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav[aria-label] {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .container-formulaire {
     padding-top: 80px;
     margin: 5%;
