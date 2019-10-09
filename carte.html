@@ -10,36 +10,6 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-            <a class="navbar-brand" href="#">Carousel</a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Carte</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Restaurant</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Photos</a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-    </header>
-
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -68,52 +38,155 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
     </section>
+      <!-- Badge's explanation before de featurettes-->
+    <section class="explication">
+        <ul>
+          <li>Coup de coeur <span class="badge badge-pill badge-danger"><i class="fas fa-heart" aria-hidden="true"></i></span></li>
+          <li>Découverte <span class="badge badge-pill badge-warning"><i class="fas fa-fire" aria-hidden="true"></i></span></li>
+          <li>Végétarien <span class="badge badge-pill badge-success"><i class="fas fa-seedling" aria-hidden="true"></i></li>
+          <li>Sans gluten <span class="badge badge-pill badge-info"><i class="fab fa-pagelines" aria-hidden="true"></i></span></li>
+          <li>Promotion <span class=" badge badge-pill badge-warning"><i class="far fa-star" aria-hidden="true"></i></span></li>
+        </ul>
+      </section>
+
         <!-- START THE FEATURETTES -->
     <section class="container-fluid">
+
+        <!--division between the featurette -->
         <hr id="promo" class="featurette-divider">
 
-        <div class="boxMenu">
-        <div class="row featurette">
+        <!--block promotion-->
+        <div class="transition-left">
+        <div class="row justify-content-between">
           <div class="col-md-7">
             <h2 class="featurette-heading">Promo <span class="badge badge-pill badge-warning"><i class="far fa-spin fa-star" aria-hidden="true"></i></span></h2>
-            <p class="lead">Vous trouverez ici nos différentes promotions et nos nouveautés ! Une promotion par semaine vous attend ainsi qu'une découverte par mois !</p>
+
+            <div class="list-group">
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Le Sas'Savoure <span class="badge badge-pill badge-danger"><i class="far fa-heart" aria-hidden="true"></i></span></h5>
+                </div>
+            
+                <p class="mb-1 font-italic text-center">Pain à hamburger, avocat, haché de poulet, salade, oignons, huile d'olive et sauce Sas'Savoure à la menthe.</p>
+                <small class="text-center">3,14 €</small>
+            
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Le Bout de Strap <span class="badge badge-pill badge-warning"><i class="fas fa-fire"></i></span></h5>
+                </div>
+            
+                <p class="mb-1 font-italic text-center">Pain à hamburger, boeuf haché, bacon, fromage bleu, tomate, échalote, salade, oignon rouge.</p>
+                <small class="text-center">4,04 €</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Le Css Bon <span class="badge badge-pill badge-success"><i class="fas fa-seedling" aria-hidden="true"></i></span></h5>
+                </div>
+                
+                <p class="mb-1 font-italic text-center">Pain complet, aubergine, courgette, poivron orange, ail, basilic, parmesan et olives noires.</p>
+                <small class="text-center">4,20 €</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                    <h5 class="mb-1 text-uppercase">Le Perl <span class=" badge badge-pill badge-info"><i class="fab fa-pagelines" aria-hidden="true"></i></span></h5>
+                  </div>
+                  
+                  <p class="mb-1 font-italic text-center">Pain sans gluten, steack haché, ricotta, tomate, oignons, concombre et pesto.</p>
+                  <small class="text-center">6,75 €</small>
+            </div>
           </div>
           <div class="col-md-5">
             <img src="assets/img/promo.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
           </div>
         </div>
+      </div>
+
+        <!--division between the featurette -->
         <hr id="menu" class="featurette-divider">
-    
+
+        <!-- block menu-->
+        <div class="transition-left">
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Menu <span class="badge badge-success">Vegan</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Menu <span class=" badge badge-pill badge-primary"><i class="fas fa-hamburger fa-spin" aria-hidden="true"></i></span></h2>
+            <div class="list-group">
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Menu Découverte <span class="badge badge-pill badge-warning"><i class="fas fa-fire"></i></span></h5>
+                </div>
+            
+                <p class="mb-1 text-center font-italic text-center"><a href="#" title="hamburger découverte">Hamburger du mois</a> et sa salade accompagnés de frite et une sauce au choix.</p>
+                <small class="text-center">20,00€</small>
+            
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase ">Menu Coup de Coeur <span class="badge badge-pill badge-danger"><i class="far fa-heart" aria-hidden="true"></i></span></h5>
+                </div>
+            
+                <p class="mb-1 text-center font-italic text-center"><a href="#" title="hamburger coup de coeur">Hamburger coup de coeur</a> de la semaine et sa salade accompagnés de frite et sauce au choix.</p>
+                <small class="text-center">20,01€</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Menu Végé <span class="badge badge-pill badge-success"><i class="fas fa-seedling" aria-hidden="true"></i></span></h5>
+                </div>
+                
+                <p class="mb-1 text-center font-italic text-center"><a href="#" title="hamburger végétarien">Hamburger végétarien</a> et sa salade accompagnés de frite et sauce au choix.</p>
+                <small class="text-center">23,00€</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                    <h5 class="mb-1 text-uppercase">Menu étudiant<span class="badge badge-pill badge-primary"><i class="far fa-star" aria-hidden="true"></i></span></h5>
+                  </div>
+                  
+                  <p class="mb-1 text-center font-italic text-center"><a href="#" title="hamburger">Hamburger au choix</a> et sa salade accompagné de frite et sauce au choix. Un burger Maxi à prix Mini pour les étudiants !</p>
+                  <small class="text-center">15,16€</small>
+            </div>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-5">
             <img src="assets/img/hamburger.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
           </div>
         </div>
-    
-        <hr class="featurette-divider">
-    
+      </div>
+
+        <!--division between the featurette -->
+        <hr id="salade"  class="featurette-divider">
+
+        <!-- block salad-->
+        <div class="transition-left">
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">Salade <span class="badge badge-pill badge-success"><i class="fas fa-spin fa-seedling" aria-hidden="true"></i></span></h2>
-            <p id ="salade" class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="list-group">
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                    <h5 class="mb-1 text-uppercase">Le Template <span class=" badge badge-pill badge-warning"><i class="far fa-star" aria-hidden="true"></i></span></h5>
+                  </div>
+                  <p class="mb-1 font-italic text-center">Roquette, tomates cerises, ricotta, tomates séchées, parmesan, basilic et huile d'olive.</p>
+                  <small class="text-center">10,24€</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Le Mix'In <span class="badge badge-pill badge-danger"><i class="far fa-heart" aria-hidden="true"></i></span></h5>
+                </div>
+                <p class="mb-1 font-italic text-center">Salade, oeufs durs, tomates cerises, dé de fromage, dé de jambon, olives noires et sa vinaigrette.</p>
+                <small class="text-center">13,37€</small>
+            
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">L'Angular <span class="badge badge-pill badge-warning"><i class="fas fa-fire"></i></span></h5>
+                </div>
+                <p class="mb-1 font-italic text-center">Roquette, frisée, oeufs, avocats, tranche de saumon, aneth, échalote, miel et vinaigre de cidre.</p>
+                <small class="text-center">10,42€</small>
+
+                <div class="d-flex w-100 justify-content-center list-group-item">
+                  <h5 class="mb-1 text-uppercase">Le React <span class="badge badge-pill badge-success"><i class="fas fa-seedling" aria-hidden="true"></i></span></h5>
+                </div>
+                <p class="mb-1 font-italic text-center">Salade, pommes acidulées, céleri blanc, noix, raisin, jus de citron et mayonnaise.</p>
+                <small class="text-center">8,00€</small>
+            </div>
           </div>
           <div class="col-md-5">
                 <img src="assets/img/vegan.jpg" class="rounded-circle" alt="#" style="height: 500px;width:500px;">
           </div>
         </div>
-    
+        </div>
+        
+        <!--division between the featurette -->
         <hr class="featurette-divider">
         </div>
+
         <!-- /END THE FEATURETTES -->
       </div>
     </section>
-    <footer class="footer-carte">
-            <div id="sticky-footer">
-    <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
 </body>
 </html>
