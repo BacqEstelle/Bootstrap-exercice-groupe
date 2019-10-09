@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags for bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <link rel = 'stylesheet' href = 'pagination.css'/>
+    <title>Pagination!</title>
+  </head>
+
+  <body>
+    <h2>Pagination.html</h2>
+    <div id="carouselMain1" class="carousel slide carousel-fade carousel1" data-ride="carousel">
+            <!-- starting the indicative dots -->
+            <ol class="carousel-indicators"> <!-- bouton de visualisation -> changer la position 2nd temps -->
+                <li data-target="#carouselMain1" data-slide-to="0" class="active"></li> <!-- first image active by default -->
+                <li data-target="#carouselMain1" data-slide-to="1"></li>
+                <li data-target="#carouselMain1" data-slide-to="2"></li>
+            </ol> <!-- end of the indicative dots-->
+    
+            <!-- starting the content of the carousel-->
+            <div class="carousel-inner" role="listbox">
+                <!-- first slide -->
+                <div class="carousel-item active"> <!-- first slide is active -->
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/steack1.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div> <!-- end of the first slide -->
+                <!-- second slide -->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/pates.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+                <!-- third slide-->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/moules.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+            </div><!-- end of the carousel content-->
+    
+            <!-- starting to add controls (arrows) -->
+            <a class="carousel-control-prev" href="#carouselMain1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span> <!-- for screan readers only even if lack of accessibility -->
+            </a>
+            <a class="carousel-control-next" href="#carouselMain1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div><!-- end of the carousel(wrapper)-->
+    <!-- deuxième carrousel -->
+    <div id="carouselMain2" class="carousel slide carousel-fade carousel2" data-ride="carousel">
+            <!-- starting the indicative dots -->
+            <ol class="carousel-indicators"> <!-- bouton de visualisation -> changer la position 2nd temps -->
+                <li data-target="#carouselMain2" data-slide-to="0" class="active"></li> <!-- first image active by default -->
+                <li data-target="#carouselMain2" data-slide-to="1"></li>
+                <li data-target="#carouselMain2" data-slide-to="2"></li>
+            </ol> <!-- end of the indicative dots-->
+    
+            <!-- starting the content of the carousel-->
+            <div class="carousel-inner" role="listbox">
+                <!-- first slide -->
+                <div class="carousel-item active"> <!-- first slide is active -->
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/steack1.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div> <!-- end of the first slide -->
+                <!-- second slide -->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/pates.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+                <!-- third slide-->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/moules.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+            </div><!-- end of the carousel content-->
+    
+            <!-- starting to add controls (arrows) -->
+            <a class="carousel-control-prev" href="#carouselMain2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span> <!-- for screan readers only even if lack of accessibility -->
+            </a>
+            <a class="carousel-control-next" href="#carouselMain2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div><!-- end of the carousel2(wrapper)-->
+
+    <!-- carrousel 3-->
+    <div id="carouselMain3" class="carousel slide carousel-fade carousel3" data-ride="carousel">
+            <!-- starting the indicative dots -->
+            <ol class="carousel-indicators"> <!-- bouton de visualisation -> changer la position 2nd temps -->
+                <li data-target="#carouselMain3" data-slide-to="0" class="active"></li> <!-- first image active by default -->
+                <li data-target="#carouselMain3" data-slide-to="1"></li>
+                <li data-target="#carouselMain3" data-slide-to="2"></li>
+            </ol> <!-- end of the indicative dots-->
+    
+            <!-- starting the content of the carousel-->
+            <div class="carousel-inner" role="listbox">
+                <!-- first slide -->
+                <div class="carousel-item active"> <!-- first slide is active -->
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/steack1.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div> <!-- end of the first slide -->
+                <!-- second slide -->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/pates.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+                <!-- third slide-->
+                <div class="carousel-item">
+                    <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                        <div class = 'container-fluid'>
+                            <figure class = 'row text-center align-items-center'>
+                                <div class = 'img_left col-4'> <!-- img left half size-->
+                                    <img class="d-block" src="img/moules.png" alt="First slide">
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                                <div class = 'img_right col-4 text-center'>
+                                    <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div><!-- end of second slide -->
+            </div><!-- end of the carousel content-->
+    
+            <!-- starting to add controls (arrows) -->
+            <a class="carousel-control-prev" href="#carouselMain3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span> <!-- for screan readers only even if lack of accessibility -->
+            </a>
+            <a class="carousel-control-next" href="#carouselMain3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div><!-- end of the carousel3(wrapper)-->
+
+        <!-- carrousel 4-->
+        <div id="carouselMain4" class="carousel slide carousel-fade carousel4" data-ride="carousel">
+                <!-- starting the indicative dots -->
+                <ol class="carousel-indicators"> <!-- bouton de visualisation -> changer la position 2nd temps -->
+                    <li data-target="#carouselMain4" data-slide-to="0" class="active"></li> <!-- first image active by default -->
+                    <li data-target="#carouselMain4" data-slide-to="1"></li>
+                    <li data-target="#carouselMain4" data-slide-to="2"></li>
+                </ol> <!-- end of the indicative dots-->
+        
+                <!-- starting the content of the carousel-->
+                <div class="carousel-inner" role="listbox">
+                    <!-- first slide -->
+                    <div class="carousel-item active"> <!-- first slide is active -->
+                        <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                            <div class = 'container-fluid'>
+                                <figure class = 'row text-center align-items-center'>
+                                    <div class = 'img_left col-4'> <!-- img left half size-->
+                                        <img class="d-block" src="img/steack1.png" alt="First slide">
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/steack1.png" alt="First slide"/>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div> <!-- end of the first slide -->
+                    <!-- second slide -->
+                    <div class="carousel-item">
+                        <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                            <div class = 'container-fluid'>
+                                <figure class = 'row text-center align-items-center'>
+                                    <div class = 'img_left col-4'> <!-- img left half size-->
+                                        <img class="d-block" src="img/pates.png" alt="First slide">
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/pates.png" alt="First slide"/>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div><!-- end of second slide -->
+                    <!-- third slide-->
+                    <div class="carousel-item">
+                        <div class="view"> <!-- partie visible style image si je rajoute une légende -->
+                            <div class = 'container-fluid'>
+                                <figure class = 'row text-center align-items-center'>
+                                    <div class = 'img_left col-4'> <!-- img left half size-->
+                                        <img class="d-block" src="img/moules.png" alt="First slide">
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                    </div>
+                                    <div class = 'img_right col-4 text-center'>
+                                        <img class = 'd-block' src="img/moules.png" alt="First slide"/>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div><!-- end of second slide -->
+                </div><!-- end of the carousel content-->
+        
+                <!-- starting to add controls (arrows) -->
+                <a class="carousel-control-prev" href="#carouselMain4" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span> <!-- for screan readers only even if lack of accessibility -->
+                </a>
+                <a class="carousel-control-next" href="#carouselMain4" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div><!-- end of the carousel4(wrapper)-->
+
+    <!-- starting the true pagination -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- jQuery ,  Popper.js,  Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src = 'pagination.js'></script>
+  </body>
+</html>
