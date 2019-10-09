@@ -1,0 +1,139 @@
+@media screen and (max-width: 479px){
+    @import "_mobile_carte.scss";
+    @import "_mobile_restaurant.scss";
+    @import "_mobile_photo.scss";
+    @import "_mobile_contact.scss";
+    $nav-background-primary: rgb(52,58,64);
+    $nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+    $nav-background-hover: rgb(0,255,255);
+    $nav-background-hover-linear: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+    $nav-link: cyan;
+    $border-logo: 2px solid cyan;
+    $border-primary: cyan;
+    $border-second: lightgray;
+    $panel-heading: #343a40;
+    $panel-heading-border: 3px solid cyan;
+    // Element navigation
+    .navbar{
+        font-family: 'Dosis', sans-serif;
+        background: $nav-background-primary;
+        background: $nav-background-primary-linear;
+        border-bottom: 2px solid cyan;
+        height: 80px;
+    
+    }
+    
+    
+      // Element Lien & Animation hover
+    .navbar-nav{
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        .nav-item{
+            font-size: 120%;
+            text-align: center;
+            vertical-align: middle;
+            padding: 0px 50px 0px 50px;
+            .nav-link{
+                color: $nav-link;
+                vertical-align: middle;
+                border-radius: 15px;
+                transition : 1s ease-in-out;
+                transform : scale(1); 
+    
+    
+                    &:hover{
+                        background: $nav-background-hover;
+                        background: $nav-background-hover-linear;
+                        -moz-border-radius: 15%;
+                        -o-border-radius: 15%;
+                        -webkit-border-radius: 15%;
+                        border-radius: 15%;
+                        transition : 1s ease-in-out;
+                        transform : scale(1.1); 
+    
+                    }
+            
+            }
+        }
+    }
+            // Element Logo : Mise en page + animation hover
+            .logo-item{
+                margin-right: 50px;
+                .logo{
+                    display: block;
+                    background-image: url(assets/img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 60px;
+                    height: 60px;
+                    top: 0;
+                    padding: 100%;
+                    border-bottom: $border-logo;
+                    border-left: $border-logo;
+                    border-right: $border-logo;
+                    border-radius: 60px;
+                    transition : 1s ease-in-out;
+                    transform : scale(1); 
+                        &:hover{
+                            background-image: url(assets/img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                            transition : 1s ease-in-out;
+                            transform : scale(1.1);
+                        }
+                }
+            }
+        }
+
+//mise en page du restaurant
+
+.contener{
+    padding-top: 100px;
+    width: 100%;
+        .pick1{
+            height: auto;
+            width: 100%;
+            margin: 15px;
+        }
+        .lead{
+            margin-left: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+            opacity:0;
+            transition : 4s ease-in-out;
+                &:hover{
+                    transition : 1s ease-in-out;
+                    opacity: 1;
+                }
+        }
+        .box2{
+            margin-right: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+        }
+        .slide{
+            opacity:0;
+            transition : 4s ease-in-out;
+                &:hover{
+                    transition : 1s ease-in-out;
+                    opacity: 1;
+                }
+            }
+        .pick2{
+            height: auto ;
+            width: 100% ;
+            margin: 15px;
+        }
+        .pick3{
+            height: auto ;
+            width: 100% ;
+            margin: 15px;
+        }
+        .box3{
+            margin-left: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+            }
+    }
+ul{
+   list-style-type: none; 
+}
