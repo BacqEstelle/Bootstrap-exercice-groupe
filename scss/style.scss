@@ -302,3 +302,18 @@ $width_caption : 33%;
 }
 
     }
+// Bouton Return Top
+.btn-top{
+    position: fixed;
+    padding-bottom: 25px;
+    margin-right: -20px;
+    right: 0;
+    bottom: 0;
+    a{
+
+        color: lightgrey;
+        &:hover{
+        color: cyan;
+        }
+    }
+   }
