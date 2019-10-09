@@ -282,19 +282,20 @@
   .copyright a {
     color: white;
   }
-}
-.btn-top {
-  position: fixed;
-  padding-bottom: 25px;
-  margin-right: -20px;
-  right: 0;
-  bottom: 0;
-}
-.btn-top a {
-  color: lightgrey;
-}
-.btn-top a:hover {
-  color: cyan;
+
+  .btn-top {
+    position: fixed;
+    padding-bottom: 25px;
+    margin-right: -20px;
+    right: 0;
+    bottom: 0;
+  }
+  .btn-top a {
+    color: lightgrey;
+  }
+  .btn-top a:hover {
+    color: cyan;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
