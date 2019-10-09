@@ -181,10 +181,32 @@ $width_caption : 33%;
             h2{
                 color: gray;
             }
+            p{
 
+                .btn-primary{
+                    margin-top: 2%;
+                    background-color: rgb(52,58,64);
+                    border-color: lightgray;
+                    box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+                
+                    &:active{
+                        background: rgb(52,58,64);
+                        background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+                        box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+                
+                        .fas{
+                            color : greenyellow;
+                        }
+                    }
+                }
+                .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+                    background-color: rgb(52,58,64);
+                    border-color: lightgray;
+                    box-shadow: 0 0 0 .2rem rgb(78, 82, 78);
+                }
+                     }
 
-         }   
-
+    }
     }
 // Element de coupure avec angle
 .border-angle {
@@ -210,26 +232,6 @@ $width_caption : 33%;
       
       box-shadow: -5px 3px 3px 0 rgba(0, 0, 0, 0.4);
     }
-// Element checkbox et animation
-.text{
-    display:none;
-    border-left: 4px solid gray;
-    padding-left: 2%;
-    .lead{
-        q{
-            font-style: italic;
-            font-weight: bolder;
-        }
-    }
-    
-
-}
-// Apparition de la partie texte + shadow box + léger décalage
-input[type=checkbox]:checked ~ div.text{
-    display:block;
-    transform : translate(0px,30px); 
-    box-shadow: 10px 5px 5px lightgray;
-}
 // Element contenu n°2
     .contenair-2{
         display: block;
@@ -299,4 +301,4 @@ input[type=checkbox]:checked ~ div.text{
     }
 }
 
-}
+    }

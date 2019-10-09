@@ -185,6 +185,25 @@
   .contenair-1 .jumbotron h2 {
     color: gray;
   }
+  .contenair-1 .jumbotron p .btn-primary {
+    margin-top: 2%;
+    background-color: #343a40;
+    border-color: lightgray;
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
+  .contenair-1 .jumbotron p .btn-primary:active {
+    background: #343a40;
+    background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
+  .contenair-1 .jumbotron p .btn-primary:active .fas {
+    color: greenyellow;
+  }
+  .contenair-1 .jumbotron p .btn-primary:not(:disabled):not(.disabled).active, .contenair-1 .jumbotron p .btn-primary:not(:disabled):not(.disabled):active, .contenair-1 .jumbotron p .show > .btn-primary.dropdown-toggle {
+    background-color: #343a40;
+    border-color: lightgray;
+    box-shadow: 0 0 0 0.2rem #4e524e;
+  }
 
   .border-angle {
     position: relative;
@@ -206,22 +225,6 @@
     transform-origin: 0 0;
     transform: rotate(-45deg);
     box-shadow: -5px 3px 3px 0 rgba(0, 0, 0, 0.4);
-  }
-
-  .text {
-    display: none;
-    border-left: 4px solid gray;
-    padding-left: 2%;
-  }
-  .text .lead q {
-    font-style: italic;
-    font-weight: bolder;
-  }
-
-  input[type=checkbox]:checked ~ div.text {
-    display: block;
-    transform: translate(0px, 30px);
-    box-shadow: 10px 5px 5px lightgray;
   }
 
   .contenair-2 {
