@@ -3,6 +3,7 @@
     @import "_mobile_restaurant.scss";
     @import "_mobile_photo.scss";
     @import "_mobile_contact.scss";
+    
     $nav-background-primary: rgb(52,58,64);
     $nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
     $nav-background-hover: rgb(0,255,255);
@@ -20,15 +21,11 @@
         background: $nav-background-primary-linear;
         border-bottom: 2px solid cyan;
         height: 80px;
-    
     }
-    
-    
       // Element Lien & Animation hover
     .navbar-nav{
         padding-top: 0;
         padding-bottom: 0;
-        
         .nav-item{
             font-size: 120%;
             text-align: center;
@@ -39,9 +36,7 @@
                 vertical-align: middle;
                 border-radius: 15px;
                 transition : 1s ease-in-out;
-                transform : scale(1); 
-    
-    
+                transform : scale(1);
                     &:hover{
                         background: $nav-background-hover;
                         background: $nav-background-hover-linear;
@@ -50,10 +45,8 @@
                         -webkit-border-radius: 15%;
                         border-radius: 15%;
                         transition : 1s ease-in-out;
-                        transform : scale(1.1); 
-    
+                        transform : scale(1.1);
                     }
-            
             }
         }
     }
@@ -62,7 +55,7 @@
                 margin-right: 50px;
                 .logo{
                     display: block;
-                    background-image: url(assets/img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
+                    background-image: url(/img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
                     background-size: cover;
                     background-repeat: no-repeat;
                     width: 60px;
@@ -76,7 +69,7 @@
                     transition : 1s ease-in-out;
                     transform : scale(1); 
                         &:hover{
-                            background-image: url(assets/img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                            background-image: url(/img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
                             transition : 1s ease-in-out;
                             transform : scale(1.1);
                         }
@@ -135,5 +128,5 @@
             }
     }
 ul{
-   list-style-type: none; 
+   list-style-type: none;
 }

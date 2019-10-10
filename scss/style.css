@@ -107,10 +107,10 @@
     padding-top: 100px;
     width: 100%;
   }
-  .contener .pick1 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
+  .contener .box1 {
+    margin-right: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 130%;
   }
   .contener .lead {
     margin-left: 30px;
@@ -139,16 +139,6 @@
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     opacity: 1;
-  }
-  .contener .pick2 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
-  }
-  .contener .pick3 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
   }
   .contener .box3 {
     margin-left: 30px;
