@@ -103,47 +103,25 @@
 }
 
 @media screen and (min-width: 960px) {
-  .contener {
-    padding-top: 100px;
+  .container {
+    padding-top: 7%;
     width: 100%;
   }
-  .contener .box1 {
-    margin-right: 30px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 130%;
-  }
-  .contener .lead {
+  .container .opacity {
     margin-left: 30px;
     font-family: 'Dosis', sans-serif;
     font-size: 130%;
     opacity: 0;
-    -webkit-transition: 4s ease-in-out;
-    transition: 4s ease-in-out;
+    -webkit-transition: 10s ease-in-out;
+    transition: 10s ease-in-out;
   }
-  .contener .lead:hover {
+  .container .opacity:hover {
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
     opacity: 1;
   }
-  .contener .box2 {
-    margin-right: 30px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 130%;
-  }
-  .contener .slide {
-    opacity: 0;
-    -webkit-transition: 4s ease-in-out;
-    transition: 4s ease-in-out;
-  }
-  .contener .slide:hover {
-    -webkit-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
-    opacity: 1;
-  }
-  .contener .box3 {
-    margin-left: 30px;
-    font-family: 'Dosis', sans-serif;
-    font-size: 130%;
+  .container iframe {
+    padding: 1%;
   }
   ul {
     list-style-type: none;
