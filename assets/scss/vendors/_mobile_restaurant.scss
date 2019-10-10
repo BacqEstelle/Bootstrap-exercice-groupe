@@ -1,56 +1,38 @@
-.contener{
-    padding-top: 100px;
-    width: 100%;
-        .pick1{
-            height: auto;
-            width: 100%;
-            margin: 15px;
-        }
-        .lead{
-            margin-left: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-            opacity:1;
-            transition : 4s ease-in-out;
-            .col-5{
-                ul{
-                    li{
-                        list-style: none;
-                    }
-                }
-            }
-            .col-7{
-                ul{
-                    li{
-                        list-style: none;
-                    }
-                }
-            }
-        }
-        .box2{
-            margin-right: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-        }
-        .slide{
-
-           transition : 1s ease-in-out;
-            opacity: 1;
-            
-            }
-        .pick2{
-            height: auto ;
-            width: 100% ;
-            margin: 15px;
-        }
-        .pick3{
-            height: auto ;
-            width: 100% ;
-            margin: 15px;
-        }
-        .box3{
-            margin-left: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-            }
+header + div{
+    margin-top : 25%; 
+}
+.container-restaurant{
+    margin: 25% 15% 10% 15%;
+    padding : 5% 5% 5% 5%;
+    box-shadow: 0 20px 50px rgb(153, 154, 158);
+}
+.container-animation-restaurant{
+    .row{
+        background: rgb(52,58,64);
+        background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgb(153, 154, 158);
+        color: white;
+        padding: 20px;
+        border: 2px solid gray;
+    
     }
+}
+.opacity{
+    font-family: 'Dosis', sans-serif;
+    font-size: 130%;
+    opacity:0.1;
+    transition : 10s ease-in-out;
+    &:hover{
+        transition : 1s ease-in-out;
+        opacity: 1;
+    }
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    text-decoration: underline;
+}
+

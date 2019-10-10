@@ -1,48 +1,38 @@
-.contener{
-    padding-top: 100px;
-    width: 100%;
-        .pick1{
-            height: auto;
-            width: 100%;
-            margin: 15px;
-        }
-        .lead{
-            margin-left: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-            opacity:0;
-            transition : 4s ease-in-out;
-                &:hover{
-                    transition : 1s ease-in-out;
-                    opacity: 1;
-                }
-        }
-        .box2{
-            margin-right: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-        }
-        .slide{
-            opacity:0;
-            transition : 4s ease-in-out;
-                &:hover{
-                    transition : 1s ease-in-out;
-                    opacity: 1;
-                }
-            }
-        .pick2{
-            height: auto ;
-            width: 100% ;
-            margin: 15px;
-        }
-        .pick3{
-            height: auto ;
-            width: 100% ;
-            margin: 15px;
-        }
-        .box3{
-            margin-left: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-            }
+//mise en page du restaurant
+header + div{
+    margin-top : 15%; 
+}
+.container-restaurant{
+    margin: 10% 15% 10% 15%;
+    padding : 3% 3% 3% 3%;
+    box-shadow: 0 20px 50px rgb(153, 154, 158);
+}
+.container-animation-restaurant{
+    .row{
+        background: rgb(52,58,64);
+        background: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgb(153, 154, 158);
+        color: white;
+        padding: 20px;
+        border: 2px solid gray;
+    
     }
+}
+.opacity{
+    font-family: 'Dosis', sans-serif;
+    font-size: 130%;
+    opacity:0.1;
+    transition : 10s ease-in-out;
+    &:hover{
+        transition : 1s ease-in-out;
+        opacity: 1;
+    }
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    text-decoration: underline;
+}

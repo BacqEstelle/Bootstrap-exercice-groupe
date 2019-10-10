@@ -99,45 +99,44 @@
     margin-top: 5vh !important;
   }
 
-  .contener {
-    padding-top: 100px;
-    width: 100%;
+  header + div {
+    margin-top: 25%;
   }
-  .contener .pick1 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
+
+  .container-restaurant {
+    margin: 25% 15% 10% 15%;
+    padding: 5% 5% 5% 5%;
+    box-shadow: 0 20px 50px #999a9e;
   }
-  .contener .lead {
-    margin-left: 30px;
+
+  .container-animation-restaurant .row {
+    background: #343a40;
+    background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px #999a9e;
+    color: white;
+    padding: 20px;
+    border: 2px solid gray;
+  }
+
+  .opacity {
     font-family: "Dosis", sans-serif;
     font-size: 130%;
-    opacity: 1;
-    transition: 4s ease-in-out;
+    opacity: 0.1;
+    transition: 10s ease-in-out;
   }
-  .contener .box2 {
-    margin-right: 30px;
-    font-family: "Dosis", sans-serif;
-    font-size: 130%;
-  }
-  .contener .slide {
+  .opacity:hover {
     transition: 1s ease-in-out;
     opacity: 1;
   }
-  .contener .pick2 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
+
+  ul {
+    list-style-type: none;
   }
-  .contener .pick3 {
-    height: auto;
-    width: 100%;
-    margin: 15px;
-  }
-  .contener .box3 {
-    margin-left: 30px;
-    font-family: "Dosis", sans-serif;
-    font-size: 130%;
+
+  h2 {
+    text-decoration: underline;
   }
 
   /*General display*/
