@@ -1,1 +1,28 @@
 
+@import 'carrousel.scss'; 
+
+/*on retouche juste la position des indicateurs*/
+.carousel-indicators{
+    justify-content: center; 
+}
+.container-fluid{
+    figure{
+        overflow : hidden; 
+    }
+    .img_left, .img_right{
+        img{
+            width : 100%; 
+            height : auto; 
+        }
+    }
+}
+nav[aria-label]{
+    margin-top : 20px;
+    display : flex; 
+    justify-content: center;
+    align-items : center; 
+}
+.para{
+
+    margin-bottom: 5%;
+}

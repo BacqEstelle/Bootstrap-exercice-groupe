@@ -151,6 +151,90 @@
     font-size: 130%;
   }
 
+  /*General display*/
+  .view {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f3f6;
+  }
+
+  .carousel-caption {
+    top: 0;
+    bottom: auto;
+    left: 0;
+    right: auto;
+    width: 50%;
+    max-width: 500px;
+    padding-left: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .carousel-caption h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: thin;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 40%;
+  }
+
+  .carousel-caption p {
+    background-color: #e44249;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+    max-width: 200px;
+    font-weight: bold;
+  }
+
+  /*Changer les indicateurs y compris au moment de la sélection*/
+  .carousel-indicators {
+    justify-content: flex-end;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #e44249;
+    margin-right: 2rem;
+  }
+
+  .carousel-indicators .active, .hover {
+    background-color: #e44249;
+  }
+
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(100, 190, 204, 0.5);
+  }
+
+  /*on retouche juste la position des indicateurs*/
+  .carousel-indicators {
+    justify-content: center;
+  }
+
+  .container-fluid figure {
+    overflow: hidden;
+  }
+  .container-fluid .img_left img, .container-fluid .img_right img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav[aria-label] {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para {
+    margin-bottom: 5%;
+  }
+
   .container-formulaire {
     padding-top: 80px;
     margin: 5%;
