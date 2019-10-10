@@ -11,13 +11,48 @@
         <link rel="stylesheet" media="screen and (max-width: 479px)" href="css/mobile.css" type="text/css" />
         <link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 959px)" href="css/tablet.css" type="text/css" />
         <link rel="icon" href="img/ico.png" />
-       <!--<link rel="stylesheet" href="scss/style.css">
+       <link rel="stylesheet" href="scss/style.css">
         <link rel="stylesheet" href="scss/mobile.css">
         <link rel="stylesheet" href="scss/tablet.css">
-       --> 
-        <title>Restaurant 2</title>
+        <title>Restaurant</title>
 </head>
 <body>
+    <!---Barre de navigation--->
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="carte.html">Carte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurant.html">Restaurant</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-0 mt-lg-5 mt-0 order-md-1 position-relative">
+                <a class="navbar-nav mr-auto" href="index.html">
+                    <div class="logo-item">
+                        <a class="logo" href="index.html"></a>
+                        </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="photo.html">Photo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- fin de la barre de navigation -->
     <div class = 'container'> <!-- charleroi -->
         <div class = 'row'>
             <div class="col-12 col-md-6"> <!-- r1 > col1 = iframe-->
@@ -104,5 +139,38 @@
             </div>
         </div>
     </div> <!-- fin de Liège -->
+
+    <!-- Le footer-->
+    <div class="footer-custom">
+        <!---1er Partie : Picto--->
+        <footer id="sticky-footer" class="py-2">
+            <div class="py-3 container text-center">
+                <a class="fb-ic" href="#">
+                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+                </a>
+                <a class="tw-ic" href="#">
+                    <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+                </a>
+                <a class="gplus-ic" href="#">
+                    <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+                </a>
+                <a class="li-ic">
+                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+                </a>
+                <a class="ins-ic" href="#">
+                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" style="color: lightgray;"> </i>
+                </a>
+                <a class="pin-ic" href="#">
+                    <i class="fab fa-pinterest fa-lg white-text fa-2x" style="color: lightgray;"> </i>
+                </a>
+            </div>
+            <!---2e Partie : Copyright--->
+            <div class="py-1 container text-center">
+                <div class="copyright">
+                    <small>© 2019 Copyright: <a href="#">lacuisine.becode.org</a></small>
+                </div>
+            </div>
+        </footer>
+    </div><!-- fin du footer custom-->
 
 </body>
