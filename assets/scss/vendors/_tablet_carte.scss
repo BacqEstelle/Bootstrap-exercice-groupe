@@ -1,0 +1,104 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+.container-carte{
+    margin: 5%;
+    
+    }
+.box {
+
+    margin-top: 20vh;
+
+  }
+  .col-lg-4 {
+    opacity: 0.7;
+    transition: all .2s ease-in-out;
+    &:hover { transform:scale(1.1);
+              opacity: 1;
+
+    }
+  }
+  .explication {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    ul {
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    li {
+      margin: 0 10px;
+     list-style:none;
+     text-align: center;
+    }
+    }
+
+  .transition-left
+{
+margin:5%;
+
+    h2{
+        text-align: center;
+    }
+    .list-group{
+        p{
+            text-align: justify;
+        }
+
+    }
+
+
+}
+.col-md-5{
+    text-align: center;
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    .rounded-circle{
+        text-align: center;
+        width: 250px;
+        height: 250px;
+    }
+}
+small{
+
+    margin-bottom: 5%;
+}
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin:3em; /* Space out the Bootstrap <hr> more */
+  }
+  .menu {
+    .featurette-divider {
+      margin: 1rem 0;
+    }
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-top: 5vh !important;
+  }

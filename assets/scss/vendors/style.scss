@@ -1,4 +1,4 @@
-@media screen and (min-width: 960px){
+@media screen and (min-width: 1224px){
 @import "_carte.scss";
 @import "_restaurant.scss";
 @import "_photo.scss";
@@ -78,7 +78,7 @@ $width_caption : 33%;
             margin-right: 50px;
             .logo{
                 display: block;
-                background-image: url(../img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
+                background-image: url(../../img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
                 background-size: cover;
                 background-repeat: no-repeat;
                 width: 60px;
@@ -92,7 +92,7 @@ $width_caption : 33%;
                 transition : 1s ease-in-out;
                 transform : scale(1); 
                     &:hover{
-                        background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
+                        background-image: url(../../img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
                         transition : 1s ease-in-out;
                         transform : scale(1.1); 
     
@@ -236,9 +236,6 @@ $width_caption : 33%;
     .contenair-2{
         display: block;
         margin: 2% 0% 2% 0%;
-        .col-md-10{
-            margin: 0px;
-        }
         .row{
             padding: 5% 10% 5% 10%;
             // Customisation des panels
@@ -291,11 +288,10 @@ $width_caption : 33%;
     color: lightgray;
     background: $nav-background-primary;
     background: $nav-background-primary-linear;
+
 }
 // Modification de la couleur de l'url
 .copyright{
-    bottom:0;
-    right:0;
     a{
     color: white;
     }

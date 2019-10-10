@@ -1,5 +1,99 @@
 @charset "UTF-8";
-@media screen and (min-width: 480px) and (max-width: 959px) {
+@media screen and (max-width: 479px) {
+  /* GLOBAL STYLES
+  -------------------------------------------------- */
+  /* Padding below the footer and lighter body text */
+  .container-carte {
+    margin: 5%;
+  }
+
+  .box {
+    margin-top: 20vh;
+  }
+
+  .col-lg-4 {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+  }
+  .col-lg-4:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  .explication {
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 35%;
+  }
+  .explication ul {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .explication li {
+    list-style: none;
+    text-align: right;
+  }
+
+  .transition-left {
+    margin: 5%;
+  }
+  .transition-left h2 {
+    text-align: center;
+  }
+  .transition-left .list-group p {
+    text-align: justify;
+  }
+
+  .col-md-5 {
+    text-align: center;
+    padding: 5%;
+  }
+  .col-md-5 .rounded-circle {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+  }
+
+  small {
+    margin-bottom: 5%;
+  }
+
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  /* Featurettes
+  ------------------------- */
+  .featurette-divider {
+    margin: 3em;
+    /* Space out the Bootstrap <hr> more */
+  }
+
+  .menu .featurette-divider {
+    margin: 1rem 0;
+  }
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    margin-top: 5vh !important;
+  }
+
   .contener {
     padding-top: 100px;
     width: 100%;
@@ -15,6 +109,12 @@
     font-size: 130%;
     opacity: 1;
     transition: 4s ease-in-out;
+  }
+  .contener .lead .col-5 ul li {
+    list-style: none;
+  }
+  .contener .lead .col-7 ul li {
+    list-style: none;
   }
   .contener .box2 {
     margin-right: 30px;
@@ -136,7 +236,7 @@
 
   .navbar-dark .navbar-toggler-icon {
     text-align: left;
-    background-image: url(../img/logo.png), linear-gradient(0deg, rgba(52, 58, 64, 0.4794292717) 14%, #2e4344 100%);
+    background-image: url(../../img/logo.png), linear-gradient(0deg, rgba(52, 58, 64, 0.4794292717) 14%, #2e4344 100%);
     background-size: cover;
     background-repeat: no-repeat;
     width: 60px;
@@ -150,7 +250,7 @@
     transform: scale(1);
   }
   .navbar-dark .navbar-toggler-icon:hover {
-    background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0, 255, 255, 0.4794292717) 14%, #343a40 100%);
+    background-image: url(../../img/logo.gif), linear-gradient(0deg, rgba(0, 255, 255, 0.4794292717) 14%, #343a40 100%);
     transition: 1s ease-in-out;
     transform: scale(1.1);
   }
@@ -183,7 +283,7 @@
     text-align: left;
     color: black;
     text-transform: uppercase;
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 40%;
   }
 
@@ -239,7 +339,7 @@
     text-align: center;
   }
   .contenair-1 .jumbotron p .btn-primary {
-    margin-top: 5%;
+    margin-top: 10%;
     background-color: #343a40;
     border-color: lightgray;
     box-shadow: 0 0 0 0.2rem #4e524e;
@@ -282,7 +382,7 @@
 
   .contenair-2 {
     display: block;
-    margin: 5% 0% 2% 0%;
+    margin: 10% 0% 2% 0%;
   }
   .contenair-2 .col, .contenair-2 .col-1, .contenair-2 .col-10, .contenair-2 .col-11, .contenair-2 .col-12, .contenair-2 .col-2, .contenair-2 .col-3, .contenair-2 .col-4, .contenair-2 .col-5, .contenair-2 .col-6, .contenair-2 .col-7, .contenair-2 .col-8, .contenair-2 .col-9, .contenair-2 .col-auto, .contenair-2 .col-lg, .contenair-2 .col-lg-1, .contenair-2 .col-lg-10, .contenair-2 .col-lg-11, .contenair-2 .col-lg-12, .contenair-2 .col-lg-2, .contenair-2 .col-lg-3, .contenair-2 .col-lg-4, .contenair-2 .col-lg-5, .contenair-2 .col-lg-6, .contenair-2 .col-lg-7, .contenair-2 .col-lg-8, .contenair-2 .col-lg-9, .contenair-2 .col-lg-auto, .contenair-2 .col-md, .contenair-2 .col-md-1, .contenair-2 .col-md-10, .contenair-2 .col-md-11, .contenair-2 .col-md-12, .contenair-2 .col-md-2, .contenair-2 .col-md-3, .contenair-2 .col-md-4, .contenair-2 .col-md-5, .contenair-2 .col-md-6, .contenair-2 .col-md-7, .contenair-2 .col-md-8, .contenair-2 .col-md-9, .contenair-2 .col-md-auto, .contenair-2 .col-sm, .contenair-2 .col-sm-1, .contenair-2 .col-sm-10, .contenair-2 .col-sm-11, .contenair-2 .col-sm-12, .contenair-2 .col-sm-2, .contenair-2 .col-sm-3, .contenair-2 .col-sm-4, .contenair-2 .col-sm-5, .contenair-2 .col-sm-6, .contenair-2 .col-sm-7, .contenair-2 .col-sm-8, .contenair-2 .col-sm-9, .contenair-2 .col-sm-auto, .contenair-2 .col-xl, .contenair-2 .col-xl-1, .contenair-2 .col-xl-10, .contenair-2 .col-xl-11, .contenair-2 .col-xl-12, .contenair-2 .col-xl-2, .contenair-2 .col-xl-3, .contenair-2 .col-xl-4, .contenair-2 .col-xl-5, .contenair-2 .col-xl-6, .contenair-2 .col-xl-7, .contenair-2 .col-xl-8, .contenair-2 .col-xl-9, .contenair-2 .col-xl-auto {
     margin-bottom: 10%;
@@ -349,4 +449,4 @@
   }
 }
 
-/*# sourceMappingURL=tablet.css.map */
+/*# sourceMappingURL=mobile.css.map */

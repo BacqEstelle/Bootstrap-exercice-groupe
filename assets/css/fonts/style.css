@@ -1,5 +1,107 @@
 @charset "UTF-8";
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1224px) {
+  /* GLOBAL STYLES
+  -------------------------------------------------- */
+  /* Padding below the footer and lighter body text */
+  .container-carte {
+    margin: 5%;
+  }
+
+  .box {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+  }
+
+  .col-lg-4 {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+  }
+  .col-lg-4:hover {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  .explication {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .explication ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -5%;
+  }
+  .explication li {
+    margin: 0 10px;
+    list-style: none;
+  }
+
+  .transition-left {
+    margin: 5%;
+    opacity: 0;
+    transition: 2s ease-in-out;
+  }
+  .transition-left:hover {
+    transition: 2s ease-in-out;
+    opacity: 1;
+  }
+  .transition-left:hover .col-md-7 {
+    transform: translateX(20px);
+    transition: 2s ease-in-out;
+  }
+  .transition-left:hover .col-md-5 {
+    transform: translateX(0px);
+    transition: 2s ease-in-out;
+  }
+  .transition-left .col-md-7 {
+    transform: translateX(0px);
+    transition: 2s ease-in-out;
+  }
+  .transition-left .col-md-5 {
+    transform: translateX(20px);
+    transition: 2s ease-in-out;
+  }
+  .transition-left .col-md-5 .rounded-circle {
+    width: 500px;
+    height: 500px;
+  }
+
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+
+  /* Featurettes
+  ------------------------- */
+  .featurette-divider {
+    margin: 3em;
+    /* Space out the Bootstrap <hr> more */
+  }
+
+  .menu .featurette-divider {
+    margin: 1rem 0;
+  }
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    margin-top: 5vh !important;
+  }
+
   .contener {
     padding-top: 100px;
     width: 100%;
@@ -157,7 +259,7 @@
   }
   .logo-item .logo {
     display: block;
-    background-image: url(../img/logo.png), linear-gradient(0deg, rgba(52, 58, 64, 0.4794292717) 14%, #2e4344 100%);
+    background-image: url(../../img/logo.png), linear-gradient(0deg, rgba(52, 58, 64, 0.4794292717) 14%, #2e4344 100%);
     background-size: cover;
     background-repeat: no-repeat;
     width: 60px;
@@ -172,7 +274,7 @@
     transform: scale(1);
   }
   .logo-item .logo:hover {
-    background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0, 255, 255, 0.4794292717) 14%, #343a40 100%);
+    background-image: url(../../img/logo.gif), linear-gradient(0deg, rgba(0, 255, 255, 0.4794292717) 14%, #343a40 100%);
     transition: 1s ease-in-out;
     transform: scale(1.1);
   }
@@ -304,9 +406,6 @@
     display: block;
     margin: 2% 0% 2% 0%;
   }
-  .contenair-2 .col-md-10 {
-    margin: 0px;
-  }
   .contenair-2 .row {
     padding: 5% 10% 5% 10%;
   }
@@ -348,10 +447,6 @@
     background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
   }
 
-  .copyright {
-    bottom: 0;
-    right: 0;
-  }
   .copyright a {
     color: white;
   }
