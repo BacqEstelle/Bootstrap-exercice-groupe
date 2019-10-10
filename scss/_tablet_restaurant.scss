@@ -1,87 +1,19 @@
 @media screen and (min-width: 480px) and (max-width: 959px){
-
-    $nav-background-primary: rgb(52,58,64);
-    $nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
-    $nav-background-hover: rgb(0,255,255);
-    $nav-background-hover-linear: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
-    $nav-link: cyan;
-    $border-logo: 2px solid cyan;
-    $border-primary: cyan;
-    $border-second: lightgray;
-    $panel-heading: #343a40;
-    $panel-heading-border: 3px solid cyan;
-    // Element navigation
-    .navbar{
-        font-family: 'Dosis', sans-serif;
-        background: $nav-background-primary;
-        background: $nav-background-primary-linear;
-        border-bottom: 2px solid cyan;
-        height: 80px;
-    }
-      // Element Lien & Animation hover
-    .navbar-nav{
-        padding-top: 0;
-        padding-bottom: 0;
-        background: $nav-background-primary;
-        .nav-item{
-            text-align: Left;
-            padding-left: 5%;
-            vertical-align: middle;
-
-            .nav-link{
-                color: $nav-link;
-                vertical-align: middle;
-                transition : 1s ease-in-out;
-                transform : scale(1);
-                    &:hover{
-                        transition : 1s ease-in-out;
-                        transform : scale(1.1);
-                    }
-            }
-        }
-    }
-            // Element Logo : Mise en page + animation hover
-            .navbar-dark .navbar-toggler-icon {
-                text-align: left;
-                background-image: url(../img/logo.png), linear-gradient(0deg, rgba(52,58,64,0.47942927170868344) 14%, rgba(46,67,68,1) 100%);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 60px;
-                height: 60px;
-                top: 0;
-                border-bottom: $border-logo;
-                border-left: $border-logo;
-                border-right: $border-logo;
-                border-radius: 60px;
-                transition : 1s ease-in-out;
-                transform : scale(1);
-                    &:hover{
-                        background-image: url(../img/logo.gif), linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
-                        transition : 1s ease-in-out;
-                        transform : scale(1.1);
-                    }
-        }
+    @import "_tablet_carte.scss";
+    @import "_tablet_photo.scss";
+    @import "_tablet_contact.scss";
 }
-//mise en page du restaurant
 
-.container{
-    padding-top: 7%;
-    width: 100%;
-        .opacity{
-            margin-left: 30px;
-            font-family: 'Dosis', sans-serif;
-            font-size: 130%;
-            opacity:0;
-            transition : 10s ease-in-out;
-                &:hover{
-                    transition : 1s ease-in-out;
-                    opacity: 1;
-                }
-        }
-        iframe{
-            padding: 1%;
-        }
-    }
+header + div{
+    padding-top : 7%; 
+}
+.opacity{
+    font-family: 'Dosis', sans-serif;
+    font-size: 130%;
+}
+iframe{
+    padding: 1%;
+}
 ul{
     list-style-type: none;
 }
