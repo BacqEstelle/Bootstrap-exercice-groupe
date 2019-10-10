@@ -7,10 +7,6 @@ header + div {
   font-size: 130%;
 }
 
-iframe {
-  padding: 1%;
-}
-
 ul {
   list-style-type: none;
 }
