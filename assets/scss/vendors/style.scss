@@ -99,7 +99,7 @@ $width_caption : 33%;
 // Carousel
 /*General display*/
 .carousel-inner{
-    padding-top: -5%;
+    padding-top: 80px;
  }
 .view{
     display : flex; 
@@ -159,7 +159,7 @@ $width_caption : 33%;
 
 // Element contenu n°1
     .contenair-1{
-        margin: 0%;
+        margin: -15% 0% 0% 0%;
         width: auto;
         // Customisation Jumbotron
         .jumbotron{

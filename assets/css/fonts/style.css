@@ -324,7 +324,7 @@
 
   /*General display*/
   .carousel-inner {
-    padding-top: -5%;
+    padding-top: 80px;
   }
 
   .view {
@@ -387,7 +387,7 @@
   }
 
   .contenair-1 {
-    margin: 0%;
+    margin: -15% 0% 0% 0%;
     width: auto;
   }
   .contenair-1 .jumbotron {
