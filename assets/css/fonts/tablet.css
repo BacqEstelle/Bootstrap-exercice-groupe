@@ -224,7 +224,7 @@
   }
 
   #carouselMain1 {
-    padding-top: 10%;
+    padding-top: -10%;
   }
 
   .container-formulaire {
@@ -373,7 +373,7 @@
   }
 
   .contenair-1 {
-    margin: 0px;
+    margin: -20% 0% 0% 0%;
     width: auto;
   }
   .contenair-1 .jumbotron {
