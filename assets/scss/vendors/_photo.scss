@@ -1,5 +1,13 @@
 
 @import 'carrousel.scss'; 
+h1{
+    margin: 10% 10% 0% 10%;
+    border-bottom: 2px solid lightgray;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+    text-shadow: lightgrey 10px 8px;
+}
 
 /*on retouche juste la position des indicateurs*/
 .carousel-indicators{
