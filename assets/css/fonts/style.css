@@ -42,12 +42,12 @@
     transition: 2s ease-in-out;
   }
   .transition-left:hover {
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
     opacity: 1;
   }
   .transition-left:hover .col-md-7 {
     transform: translateX(20px);
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
   }
   .transition-left:hover .col-md-5 {
     transform: translateX(0px);
