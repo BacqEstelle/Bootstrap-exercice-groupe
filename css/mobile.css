@@ -1,5 +1,76 @@
 @charset "UTF-8";
 @media screen and (max-width: 479px) {
+  .contener {
+    padding-top: 100px;
+    width: 100%;
+  }
+  .contener .pick1 {
+    height: auto;
+    width: 100%;
+    margin: 15px;
+  }
+  .contener .lead {
+    margin-left: 30px;
+    font-family: "Dosis", sans-serif;
+    font-size: 130%;
+    opacity: 1;
+    transition: 4s ease-in-out;
+  }
+  .contener .lead .col-5 ul li {
+    list-style: none;
+  }
+  .contener .lead .col-7 ul li {
+    list-style: none;
+  }
+  .contener .box2 {
+    margin-right: 30px;
+    font-family: "Dosis", sans-serif;
+    font-size: 130%;
+  }
+  .contener .slide {
+    transition: 1s ease-in-out;
+    opacity: 1;
+  }
+  .contener .pick2 {
+    height: auto;
+    width: 100%;
+    margin: 15px;
+  }
+  .contener .pick3 {
+    height: auto;
+    width: 100%;
+    margin: 15px;
+  }
+  .contener .box3 {
+    margin-left: 30px;
+    font-family: "Dosis", sans-serif;
+    font-size: 130%;
+  }
+
+  /*on retouche juste la position des indicateurs*/
+  .carousel-1 {
+    margin-top: 15%;
+  }
+
+  .carousel-indicators {
+    justify-content: center;
+  }
+
+  .view > .container-fluid figure {
+    overflow: hidden;
+  }
+  .view > .container-fluid .img_left img, .view > .container-fluid .img_right img {
+    width: 100%;
+    height: auto;
+  }
+
+  nav[aria-label] {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .container-formulaire {
     padding-top: 80px;
     margin: 5%;

@@ -1,0 +1,56 @@
+.contener{
+    padding-top: 100px;
+    width: 100%;
+        .pick1{
+            height: auto;
+            width: 100%;
+            margin: 15px;
+        }
+        .lead{
+            margin-left: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+            opacity:1;
+            transition : 4s ease-in-out;
+            .col-5{
+                ul{
+                    li{
+                        list-style: none;
+                    }
+                }
+            }
+            .col-7{
+                ul{
+                    li{
+                        list-style: none;
+                    }
+                }
+            }
+        }
+        .box2{
+            margin-right: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+        }
+        .slide{
+
+           transition : 1s ease-in-out;
+            opacity: 1;
+            
+            }
+        .pick2{
+            height: auto ;
+            width: 100% ;
+            margin: 15px;
+        }
+        .pick3{
+            height: auto ;
+            width: 100% ;
+            margin: 15px;
+        }
+        .box3{
+            margin-left: 30px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 130%;
+            }
+    }
