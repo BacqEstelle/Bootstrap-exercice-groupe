@@ -1,28 +1,9 @@
 @media screen and (max-width: 479px){
-    @import "_mobile_carte.scss";
-    @import "_mobile_restaurant.scss";
-    @import "_mobile_photo.scss";
-    @import "_mobile_contact.scss";
 
     $nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
     $nav-background-hover: rgb(0,255,255);
     $nav-background-hover-linear: linear-gradient(0deg, rgba(0,255,255,0.47942927170868344) 14%, rgba(52,58,64,1) 100%);
-    $nav-link: cyan;
-    $border-logo: 2px solid cyan;
-    $border-primary: cyan;
-    $border-second: lightgray;
-    $panel-heading: #343a40;
-    $panel-heading-border: 3px solid cyan;
-    // Element navigation
-    .navbar{
-        font-family: 'Dosis', sans-serif;
-        background: $nav-background-primary;
-        background: $nav-background-primary-linear;
-        border-bottom: 2px solid cyan;
-        height: 80px;
-    
-    }
-    
+    $nav-link: cyan;z
     
       // Element Lien & Animation hover
     .navbar-nav{

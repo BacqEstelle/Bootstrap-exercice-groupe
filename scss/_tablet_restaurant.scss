@@ -1,9 +1,4 @@
 @media screen and (min-width: 480px) and (max-width: 959px){
-    @import "_tablet_carte.scss";
-    @import "_tablet_restaurant.scss";
-    @import "_tablet_photo.scss";
-    @import "_tablet_contact.scss";
-
 
     $nav-background-primary: rgb(52,58,64);
     $nav-background-primary-linear: linear-gradient(0deg, rgba(52,58,64,1) 4%, rgba(46,67,68,1) 100%);
