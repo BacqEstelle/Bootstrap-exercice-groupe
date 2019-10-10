@@ -140,30 +140,6 @@
     font-size: 130%;
   }
 
-  /*on retouche juste la position des indicateurs*/
-  .carousel-1 {
-    margin-top: 15%;
-  }
-
-  .carousel-indicators {
-    justify-content: center;
-  }
-
-  .view > .container-fluid figure {
-    overflow: hidden;
-  }
-  .view > .container-fluid .img_left img, .view > .container-fluid .img_right img {
-    width: 100%;
-    height: auto;
-  }
-
-  nav[aria-label] {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .container-formulaire {
     padding-top: 80px;
     margin: 5%;
@@ -194,14 +170,6 @@
     background-color: #343a40;
     border-color: lightgray;
     box-shadow: 0 0 0 0.2rem #4e524e;
-  }
-
-  .nav-desktop-active {
-    display: none;
-  }
-
-  .nav-mobile-active {
-    display: block;
   }
 
   .navbar {

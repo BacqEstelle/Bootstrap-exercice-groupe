@@ -24,12 +24,7 @@
     $width_caption : 33%; 
 
     // Element navigation
-    .nav-desktop-active{
-        display: none;
-    }
-    .nav-mobile-active{
-        display: block;
-    }
+
     .navbar{
         font-family: 'Dosis', sans-serif;
         background: $nav-background-primary;

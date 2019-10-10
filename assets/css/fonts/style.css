@@ -151,30 +151,6 @@
     font-size: 130%;
   }
 
-  /*on retouche juste la position des indicateurs*/
-  .carousel-1 {
-    margin-top: 15%;
-  }
-
-  .carousel-indicators {
-    justify-content: center;
-  }
-
-  .view > .container-fluid figure {
-    overflow: hidden;
-  }
-  .view > .container-fluid .img_left img, .view > .container-fluid .img_right img {
-    width: 100%;
-    height: auto;
-  }
-
-  nav[aria-label] {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .container-formulaire {
     padding-top: 80px;
     margin: 5%;
@@ -216,14 +192,6 @@
     background: linear-gradient(0deg, #343a40 4%, #2e4344 100%);
     border-bottom: 2px solid cyan;
     height: 80px;
-  }
-
-  .nav-desktop-active {
-    display: block;
-  }
-
-  .nav-mobile-active {
-    display: none;
   }
 
   .navbar-nav {
