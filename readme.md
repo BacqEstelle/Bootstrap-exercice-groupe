@@ -45,8 +45,8 @@ Nous avons utilisé des __*composants*__ du framework *Bootstrap* tels que (list
 
 ## **Détails** 
 
-Le framework utilisé est [**Twitter Bootstrap**](https://getbootstrap.com/) dans sa version 4, une partie en CSS3 et vous pouvez trouvé le **lien** vers les consignes [*ici*](https://github.com/becodeorg/CRL-Woods-2.15/blob/master/Projects/BootstrapProject/projet.md)
-Le gif de l'accueil a été réalisé par [*Estelle* **Bacq**](https://github.com/BacqEstelle), et les gif animés de la carte viennent du site [**GIPHY**](https://giphy.com/).
+Le framework utilisé est [**Twitter Bootstrap**](https://getbootstrap.com/) dans sa version 4, une partie en CSS3 et vous pouvez trouvé le **lien** vers les consignes [*ici*](https://github.com/becodeorg/CRL-Woods-2.15/blob/master/Projects/BootstrapProject/projet.md).
+Le gif de l'accueil a été réalisé par [*Estelle* **Bacq**](https://github.com/BacqEstelle), et les gif animés de la carte viennent du site [**GIPHY**](https://giphy.com/). Les images viennent quant à elles de [UNSPLASH](https://unsplash.com/).
 
 *********************************
 
